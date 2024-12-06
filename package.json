@@ -7,6 +7,7 @@
     "importData": "mongoimport -h localhost:27017 -d ReferenceManager -c Reference --drop --jsonArray --file ./db/initialData.json"
   },
   "dependencies": {
+    "connect-redis": "^6.1.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.4.7",
