@@ -1,0 +1,55 @@
+<form
+  action="<%= '/seller/' + Inventory[0].farmer.farmer_id + '/editInventory/'%>"
+  method="POST"
+>
+  <!-- Quantity Field -->
+  <div>
+    <label class="form-label">
+      Quantity:
+    </label>
+      <input
+        class="form-control"
+        type="text"
+        name="quantity_in_bundles"
+        value="<%= Inventory[0].harvest.quantity_in_bundles %>"
+      />
+    
+  </div>
+
+  <!-- Date Field -->
+  <div>
+    <label class="form-label">
+      Date:
+    </label>
+      <input
+        class="form-control"
+        type="text"
+        name="date"
+        value="<%= Inventory[0].harvest.date %>" 
+        readonly
+      />
+  </div>
+
+  <!-- Product ID Field (hidden) -->
+  <input
+    type="hidden"
+    name="product_name"
+    value="<%= Inventory[0].product_name %>"
+  />
+
+
+
+  <!-- Farmer ID Field (hidden) -->
+  <input
+    type="hidden"
+    name="farmer_id"
+    value="<%= Inventory[0].farmer.farmer_id %>"
+  />
+    <!-- Product ID Field (hidden) -->
+    <input
+    type="hidden"
+    name="harvest_id"
+    value="<%= Inventory[0].harvest.harvest_id %>"
+  />
+  <button type="submit" class="btn btn-primary">Edit</button>
+</form>
