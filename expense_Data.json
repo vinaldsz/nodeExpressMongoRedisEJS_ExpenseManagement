@@ -1,0 +1,331 @@
+[{
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e352" },
+    "amount": 2500.00,
+    "date": { "$date": "2024-10-01T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34a" },
+      "category_name": "Machinery and Tools"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e353" },
+    "amount": 500.00,
+    "date": { "$date": "2024-10-05T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34c" },
+      "category_name": "Fertilizers and Soil Amendments"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e354" },
+    "amount": 1200.00,
+    "date": { "$date": "2024-10-10T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34e" },
+      "category_name": "Labor Cost"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e355" },
+    "amount": 300.00,
+    "date": { "$date": "2024-10-15T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34f" },
+      "category_name": "Water and Electricity"
+    }
+  },
+{
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e356" },
+    "amount": 750.00,
+    "date": { "$date": "2024-10-20T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34b" },
+      "category_name": "One time installation"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e357" },
+    "amount": 150.00,
+    "date": { "$date": "2024-10-21T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34d" },
+      "category_name": "Pesticides and Herbicides"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e358" },
+    "amount": 400.00,
+    "date": { "$date": "2024-10-22T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34c" },
+      "category_name": "Fertilizers and Soil Amendments"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e359" },
+    "amount": 120.00,
+    "date": { "$date": "2024-10-23T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34d" },
+      "category_name": "Pesticides and Herbicides"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35a" },
+    "amount": 1800.00,
+    "date": { "$date": "2024-10-24T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34e" },
+      "category_name": "Labor Cost"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35b" },
+    "amount": 250.00,
+    "date": { "$date": "2024-10-25T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34f" },
+      "category_name": "Water and Electricity"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35c" },
+    "amount": 300.00,
+    "date": { "$date": "2024-10-26T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34a" },
+      "category_name": "Machinery and Tools"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35d" },
+    "amount": 400.00,
+    "date": { "$date": "2024-10-27T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34c" },
+      "category_name": "Fertilizers and Soil Amendments"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35e" },
+    "amount": 500.00,
+    "date": { "$date": "2024-10-28T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34d" },
+      "category_name": "Pesticides and Herbicides"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e35f" },
+    "amount": 1300.00,
+    "date": { "$date": "2024-10-29T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e350" },
+      "first_name": "Tarun",
+      "last_name": "M",
+      "email": "tarun@gmail.com",
+      "zipcode": "12345",
+      "contact_number": "123-456-7890",
+      "address": "123 Farming Lane",
+      "city": "Farmville",
+      "state": "CA",
+      "lat": 36.7783,
+      "long": -119.4179
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34e" },
+      "category_name": "Labor Cost"
+    }
+  },
+  {
+    "_id": { "$oid": "64cfa4b5f96e4a5fa9b7e360" },
+    "amount": 600.00,
+    "date": { "$date": "2024-10-30T00:00:00Z" },
+    "farmer": {
+      "farmer_id": { "$oid": "64cfa4a1f96e4a5fa9b7e351" },
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@gmail.com",
+      "zipcode": "67890",
+      "contact_number": "098-765-4321",
+      "address": "456 Crop Circle",
+      "city": "Harvest",
+      "state": "TX",
+      "lat": 31.9686,
+      "long": -99.9018
+    },
+    "expense_category": {
+      "expense_category_id": { "$oid": "64cfa492f96e4a5fa9b7e34f" },
+      "category_name": "Water and Electricity"
+    }
+  }
+]

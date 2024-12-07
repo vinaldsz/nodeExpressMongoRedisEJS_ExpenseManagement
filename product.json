@@ -1,0 +1,480 @@
+[{
+  "_id": {
+    "$oid": "672ed01eed524929375cff92"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e371"
+  },
+  "product_name": "White Jasmine",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e361"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 120,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "673658a725d1457c1daa7172"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64cfa4a1f96e4a5fa9b7e350"
+    },
+    "first_name": "Tarun",
+    "last_name": "M",
+    "email": "tarun@example.com",
+    "zipcode": "12345",
+    "contact_number": "123-456-7890",
+    "address": "123 Farming Lane",
+    "city": "Farmville",
+    "state": "CA",
+    "lat": 36.7783,
+    "long": -119.4179
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 50,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 66,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 52,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ed01eed524929375cff93"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e376"
+  },
+  "product_name": "Rose",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e366"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 75,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736a0e825d1457c1daa7182"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64d9f8f9f96e4a5fa9b7e358"
+    },
+    "first_name": "Emma",
+    "last_name": "Garcia",
+    "email": "emma.garcia@example.com",
+    "zipcode": "67892",
+    "contact_number": "444-234-5678",
+    "address": "901 Hilltop Lane",
+    "city": "Greenfield",
+    "state": "TX",
+    "lat": 31.9688,
+    "long": -99.9021
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 75,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 90,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 85,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ed01eed524929375cff94"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e373"
+  },
+  "product_name": "Crossandra",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e363"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 80,
+      "updated_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e1bc25d1457c1daa7184"
+      }
+    },
+    {
+      "quantity_in_bundles": 75,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e1ca25d1457c1daa7185"
+      }
+    },
+    {
+      "quantity_in_bundles": 85,
+      "updated_at": {
+        "$date": "2024-01-04T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e1d625d1457c1daa7186"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64d9f8f9f96e4a5fa9b7e355"
+    },
+    "first_name": "Michael",
+    "last_name": "Clark",
+    "email": "michael.clark@example.com",
+    "zipcode": "45678",
+    "contact_number": "222-345-6789",
+    "address": "345 Sunset Blvd",
+    "city": "Farmville",
+    "state": "CA",
+    "lat": 36.7785,
+    "long": -119.419
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 55,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 72,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 58,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ed01eed524929375cff95"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e372"
+  },
+  "product_name": "Pink Jasmine",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e362"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 150,
+      "updated_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e1fa25d1457c1daa7187"
+      }
+    },
+    {
+      "quantity_in_bundles": 140,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e20725d1457c1daa7188"
+      }
+    },
+    {
+      "quantity_in_bundles": 110,
+      "updated_at": {
+        "$date": "2024-01-04T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e21925d1457c1daa7189"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64cfa4a1f96e4a5fa9b7e351"
+    },
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "email": "jane.smith@example.com",
+    "zipcode": "67890",
+    "contact_number": "098-765-4321",
+    "address": "456 Harvest Way",
+    "city": "Greenfield",
+    "state": "TX",
+    "lat": 31.9686,
+    "long": -99.9018
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 45,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 56.4,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 46,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ed01eed524929375cff96"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e374"
+  },
+  "product_name": "Marigold",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e364"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 110,
+      "updated_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e24225d1457c1daa718a"
+      }
+    },
+    {
+      "quantity_in_bundles": 115,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e24c25d1457c1daa718b"
+      }
+    },
+    {
+      "quantity_in_bundles": 120,
+      "updated_at": {
+        "$date": "2024-01-04T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e25725d1457c1daa718c"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64d9f8f9f96e4a5fa9b7e356"
+    },
+    "first_name": "Sophie",
+    "last_name": "Williams",
+    "email": "sophie.williams@example.com",
+    "zipcode": "56789",
+    "contact_number": "666-777-8888",
+    "address": "789 Blossom St",
+    "city": "Prairie",
+    "state": "NY",
+    "lat": 40.7129,
+    "long": -74.0059
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 40,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 50.4,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 45,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "672ed01eed524929375cff97"
+  },
+  "product_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e375"
+  },
+  "product_name": "Tulip",
+  "created_at": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "base_market_incentive_id": {
+    "$oid": "64d9f8f9f96e4a5fa9b7e365"
+  },
+  "harvest": [
+    {
+      "quantity_in_bundles": 90,
+      "updated_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e26b25d1457c1daa718d"
+      }
+    },
+    {
+      "quantity_in_bundles": 85,
+      "updated_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e27825d1457c1daa718e"
+      }
+    },
+    {
+      "quantity_in_bundles": 95,
+      "updated_at": {
+        "$date": "2024-01-04T00:00:00.000Z"
+      },
+      "date": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      },
+      "harvest_id": {
+        "$oid": "6736e28525d1457c1daa718f"
+      }
+    }
+  ],
+  "farmer": {
+    "farmer_id": {
+      "$oid": "64d9f8f9f96e4a5fa9b7e357"
+    },
+    "first_name": "Lucas",
+    "last_name": "Taylor",
+    "email": "lucas.taylor@example.com",
+    "zipcode": "34567",
+    "contact_number": "123-987-6543",
+    "address": "456 Forest Drive",
+    "city": "Springfield",
+    "state": "IL",
+    "lat": 39.7817,
+    "long": -89.6501
+  },
+  "product_cost": [
+    {
+      "price_per_bundle": 25,
+      "created_at": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 30,
+      "created_at": {
+        "$date": "2024-01-02T00:00:00.000Z"
+      }
+    },
+    {
+      "price_per_bundle": 28,
+      "created_at": {
+        "$date": "2024-01-03T00:00:00.000Z"
+      }
+    }
+  ]
+}]
