@@ -66,17 +66,20 @@ npm install connect-redis@6
 
 Initialize Session (Set session data):
 ```SETEX sess:<sessionID> <TTL> '{"cookie": {"maxAge": <maxAge>, "expires": "<expires>"}, "seller": {"id": "<id>", "email": "<email>", "name": "<name>"}}'```
+
 Example:
 
 ```SETEX sess:abcd1234 900 '{"cookie": {"maxAge": 900000, "expires": "2024-12-07T10:20:30Z"}, "seller": {"id": "123", "email": "user@example.com", "name": "John Doe"}}'```
 
 Retrieve Session Data:
 ```GET sess:<sessionID>```
+
 Example:
 ```GET sess:abcd1234```
 
 Delete Session (e.g., on logout):
 ```DEL sess:<sessionID>```
+
 Example:
 ```DEL sess:abcd1234```
 
@@ -85,11 +88,13 @@ Example:
 
 Check TTL for a session:
 ```TTL sess:<sessionID>```
+
 Example:
 ```TTL sess:abcd1234```
 
 Manually Extend Session TTL (optional):
 ```EXPIRE sess:<sessionID> <newTTL>```
+
 Example:
 ```EXPIRE sess:abcd1234 1800```
 
