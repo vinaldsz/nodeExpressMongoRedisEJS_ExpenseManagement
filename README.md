@@ -101,5 +101,5 @@ Example:
 Automatically Expire Session:
 Handled by SETEX during initialization with the TTL.
 
-## YouTube Demostration
+## YouTube Demonstration
 https://youtu.be/aPm9r_yVeY4
